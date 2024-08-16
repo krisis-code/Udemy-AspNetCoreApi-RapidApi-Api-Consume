@@ -1611,6 +1611,39 @@
             "rid": "win"
           }
         }
+      },
+      "HotelProject.DataAccessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "HotelProject.EntityLayer": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "8.0.8",
+          "Microsoft.AspNetCore.Razor.Runtime": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "8.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
+        },
+        "compile": {
+          "bin/placeholder/HotelProject.DataAccessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HotelProject.DataAccessLayer.dll": {}
+        }
+      },
+      "HotelProject.EntityLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "8.0.8",
+          "Microsoft.AspNetCore.Razor.Runtime": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "8.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
+        },
+        "compile": {
+          "bin/placeholder/HotelProject.EntityLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HotelProject.EntityLayer.dll": {}
+        }
       }
     }
   },
@@ -4303,10 +4336,22 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "HotelProject.DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../HotelProject.DataAccessLayer/HotelProject.DataAccessLayer.csproj",
+      "msbuildProject": "../HotelProject.DataAccessLayer/HotelProject.DataAccessLayer.csproj"
+    },
+    "HotelProject.EntityLayer/1.0.0": {
+      "type": "project",
+      "path": "../HotelProject.EntityLayer/HotelProject.EntityLayer.csproj",
+      "msbuildProject": "../HotelProject.EntityLayer/HotelProject.EntityLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "HotelProject.DataAccessLayer >= 1.0.0",
+      "HotelProject.EntityLayer >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 8.0.8",
       "Microsoft.AspNetCore.Razor.Runtime >= 2.2.0",
       "Microsoft.EntityFrameworkCore >= 8.0.8",
@@ -4346,7 +4391,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj"
+            },
+            "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

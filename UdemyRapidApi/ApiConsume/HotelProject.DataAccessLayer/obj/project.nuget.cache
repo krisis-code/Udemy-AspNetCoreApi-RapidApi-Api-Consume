@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "y+lUbdCooD1ODkq18HYSYVTitUvMEm87yeUzaU+j0CzRkJVSKW0hWtox1T8iY53edLaJVpieujYRl66ZwX+GjA==",
+  "dgSpecHash": "LDHwYMcAbZUFiXSAXVV1DDdF6crqmKD46quGHBWx91Osr3bSjvukh+3b3f/x5jo1NrC29l1flUdLa2fyxJsQxg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj",
   "expectedPackageFiles": [
