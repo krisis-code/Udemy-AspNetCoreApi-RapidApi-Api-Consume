@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\UdemyRapidApi",
+    "\\UdemyRapidApi\\ApiConsume"
   ],
-  "SelectedNode": "\\UdemyRapidApi.sln",
+  "SelectedNode": "\\UdemyRapidApi\\ApiConsume\\HotelProject.EntityLayer",
   "PreviewInSolutionExplorer": false
 }
