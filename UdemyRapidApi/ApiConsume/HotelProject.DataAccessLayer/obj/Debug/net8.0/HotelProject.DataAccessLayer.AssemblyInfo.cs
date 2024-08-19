@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HotelProject.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd445e6dd92983bff6faf34619ff35bde86e6647")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6afd1e802994708bc0f0ef713427301128bd025")]
 [assembly: System.Reflection.AssemblyProductAttribute("HotelProject.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HotelProject.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
