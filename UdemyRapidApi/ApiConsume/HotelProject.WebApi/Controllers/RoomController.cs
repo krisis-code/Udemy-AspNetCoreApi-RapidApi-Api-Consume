@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using HotelProject.BusinessLayer.Abstract;
+using HotelProject.EntityLayer.Concrete;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotelProject.WebApi.Controllers
@@ -7,34 +9,41 @@ namespace HotelProject.WebApi.Controllers
     [ApiController]
     public class RoomController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult RoomList()
+        private readonly IRoomService _roomService;
+
+        public RoomController(IRoomService roomService)
         {
-            return Ok();
+                _roomService = roomService;
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> RoomList()
+        {
+            return Ok(await _roomService.TGetListAsync());
         }
         [HttpPost]
-        public IActionResult AddRoom()
+        public async Task<IActionResult> AddRoom(Room room)
         {
-
+            await _roomService.TInsertAsync(room);
             return Ok();
         }
         [HttpDelete]
-        public IActionResult DeleteRoom()
+        public async Task<IActionResult> DeleteRoom(int id)
         {
-
+            await _roomService.TDeleteAsync(await _roomService.TGetByIdAsync(id));
             return Ok();
         }
         [HttpPut]
-        public IActionResult UpdateRoom()
+        public async Task < IActionResult> UpdateRoom(Room room)
         {
-
+            await _roomService.TUpdateAsync(room);
             return Ok();
         }
         [HttpGet("{id}")]
-        public IActionResult GetRoom()
+        public async Task<IActionResult> GetRoom(int id)
         {
-
-            return Ok();
+            
+            return Ok(await _roomService.TGetByIdAsync(id));
         }
     }
 }

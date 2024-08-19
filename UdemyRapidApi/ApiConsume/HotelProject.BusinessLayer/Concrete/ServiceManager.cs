@@ -1,16 +1,10 @@
 ﻿using HotelProject.BusinessLayer.Abstract;
 using HotelProject.DataAccessLayer.Abstract;
-using HotelProject.DataAccessLayer.EntityFramework;
 using HotelProject.EntityLayer.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HotelProject.BusinessLayer.Concrete
 {
-    public class ServiceManager : IServiceDal
+    public class ServiceManager : IServiceService
     {
         private readonly IServiceDal _serviceDal;
 
@@ -19,32 +13,32 @@ namespace HotelProject.BusinessLayer.Concrete
             _serviceDal = serviceDal;
         }
 
-        public async Task DeleteAsync(Service t)
+       public async Task TDeleteAsync(Service t)
         {
-            await _serviceDal.DeleteAsync(t);
+                await _serviceDal.DeleteAsync(t);
         }
 
-        public async Task<Service> GetByIdAsync(int id)
+        public async Task<Service> TGetByIdAsync(int id)
         {
             return await _serviceDal.GetByIdAsync(id);
         }
 
-        public async Task<List<Service>> GetListAsync()
+        public async Task<List<Service>> TGetListAsync()
         {
             return await _serviceDal.GetListAsync();
-
         }
 
-        public async Task InsertAsync(Service t)
+        public async Task TInsertAsync(Service t)
         {
             await _serviceDal.InsertAsync(t);
         }
 
-       
-
-        public async Task UpdateAsync(Service t)
+        public async Task TUpdateAsync(Service t)
         {
             await _serviceDal.UpdateAsync(t);
         }
+
+     
+     
     }
 }

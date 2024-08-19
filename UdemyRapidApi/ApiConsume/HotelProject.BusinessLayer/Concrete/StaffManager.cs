@@ -1,17 +1,14 @@
 ﻿using HotelProject.BusinessLayer.Abstract;
 using HotelProject.DataAccessLayer.Abstract;
 using HotelProject.EntityLayer.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HotelProject.BusinessLayer.Concrete
 {
-    internal class StaffManager : IStaffService
+    public class StaffManager : IStaffService
     {
         private readonly IStaffDal _staffDal;
+
+      
 
         public StaffManager(IStaffDal staffDal)
         {
@@ -25,7 +22,7 @@ namespace HotelProject.BusinessLayer.Concrete
 
         public async Task TInsertAsync(Staff t)
         {
-            await TInsertAsync(t);
+            await _staffDal.InsertAsync(t);
         }
 
         public async Task TUpdateAsync(Staff t)
