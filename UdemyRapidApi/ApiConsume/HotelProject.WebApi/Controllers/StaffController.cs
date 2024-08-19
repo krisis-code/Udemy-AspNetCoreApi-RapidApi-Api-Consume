@@ -26,7 +26,7 @@ namespace HotelProject.WebApi.Controllers
         {
             
             await _staffService.TInsertAsync(staff);
-            return Ok( );
+            return Ok();
           
         }
         [HttpDelete]
