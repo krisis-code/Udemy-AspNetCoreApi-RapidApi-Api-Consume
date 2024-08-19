@@ -30,7 +30,7 @@ namespace HotelProject.WebApi.Controllers
         [HttpDelete]
         public async Task<IActionResult> DeleteRoom(int id)
         {
-            await _roomService.TDeleteAsync( await _roomService.TGetByIdAsync(id));
+            await _roomService.TDeleteAsync(await _roomService.TGetByIdAsync(id));
             return Ok();
         }
         [HttpPut]

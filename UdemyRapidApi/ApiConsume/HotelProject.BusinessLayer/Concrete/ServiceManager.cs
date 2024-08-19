@@ -16,7 +16,6 @@ namespace HotelProject.BusinessLayer.Concrete
        public async Task TDeleteAsync(Service t)
         {
                 await _serviceDal.DeleteAsync(t);
-            
         }
 
         public async Task<Service> TGetByIdAsync(int id)
