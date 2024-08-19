@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace HotelProject.BusinessLayer.Concrete
 {
-    public class SubscribeManager : ISubscribeDal
+    public class SubscribeManager : ISubscribeService
     {
         private readonly ISubscribeDal _subscribeDal;
 
@@ -18,29 +18,31 @@ namespace HotelProject.BusinessLayer.Concrete
             _subscribeDal = subscribeDal;
         }
 
-        public async Task DeleteAsync(Subscribe t)
+        public async Task TDeleteAsync(Subscribe t)
         {
             await _subscribeDal.DeleteAsync(t);
         }
 
-        public async Task<Subscribe> GetByIdAsync(int id)
+        public async Task<Subscribe> TGetByIdAsync(int id)
         {
-          return  await _subscribeDal.GetByIdAsync(id);
+            return await _subscribeDal.GetByIdAsync(id);
         }
 
-        public async Task<List<Subscribe>> GetListAsync()
+        public async Task<List<Subscribe>> TGetListAsync()
         {
             return await _subscribeDal.GetListAsync();
         }
 
-        public async Task InsertAsync(Subscribe t)
+        public async Task TInsertAsync(Subscribe t)
         {
             await _subscribeDal.InsertAsync(t);
         }
 
-        public async Task UpdateAsync(Subscribe t)
+        public async Task TUpdateAsync(Subscribe t)
         {
             await _subscribeDal.UpdateAsync(t);
         }
+
+       
     }
 }

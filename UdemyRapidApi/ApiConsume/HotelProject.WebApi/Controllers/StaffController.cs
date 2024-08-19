@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using HotelProject.BusinessLayer.Abstract;
+using HotelProject.EntityLayer.Concrete;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotelProject.WebApi.Controllers
@@ -7,34 +9,44 @@ namespace HotelProject.WebApi.Controllers
     [ApiController]
     public class StaffController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult StaffList()
+        private readonly IStaffService _staffService;
+
+        public StaffController(IStaffService staffService)
         {
-            return Ok();
+            _staffService = staffService;
+        }
+
+        [HttpGet]
+        public  async Task<IActionResult> StaffList()
+        {
+            return Ok(await _staffService.TGetListAsync());
         }
         [HttpPost]
-        public IActionResult AddStaff()
+        public  async Task<IActionResult> AddStaff(Staff staff)
         {
-
-            return Ok();
+            
+            await _staffService.TInsertAsync(staff);
+            return Ok( );
+          
         }
         [HttpDelete]
-        public IActionResult DeleteStaff()
+        public async Task<IActionResult> DeleteStaff(int id)
         {
 
+            await _staffService.TDeleteAsync(await _staffService.TGetByIdAsync(id));
             return Ok();
         }
         [HttpPut]
-        public IActionResult UpdateStaff()
+        public async Task<IActionResult> UpdateStaff(Staff staff)
         {
-
+            await _staffService.TUpdateAsync(staff);
             return Ok();
         }
         [HttpGet("{id}")]
-        public IActionResult GetStaff()
+        public async Task<IActionResult> GetStaff(int id)
         {
-
-            return Ok();
+            
+            return Ok(await _staffService.TGetByIdAsync(id));
         }
     }
 }

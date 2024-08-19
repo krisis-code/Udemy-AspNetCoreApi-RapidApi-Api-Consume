@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace HotelProject.BusinessLayer.Concrete
 {
-    public class TestimonialManager : ITestimonialDal
+    public class TestimonialManager : ITestimonialService
     {
         private readonly ITestimonialDal _testimonialDal;
 
@@ -19,29 +19,36 @@ namespace HotelProject.BusinessLayer.Concrete
             _testimonialDal = testimonialDal;
         }
 
-        public async Task DeleteAsync(Testimonial t)
+      
+        
+
+     
+
+        public async Task TDeleteAsync(Testimonial t)
         {
             await _testimonialDal.DeleteAsync(t);
         }
 
-        public async Task<Testimonial> GetByIdAsync(int id)
+        public async Task<Testimonial> TGetByIdAsync(int id)
         {
             return await _testimonialDal.GetByIdAsync(id);
         }
 
-        public async Task<List<Testimonial>> GetListAsync()
+        public async Task<List<Testimonial>> TGetListAsync()
         {
-           return await _testimonialDal.GetListAsync();
+            return await _testimonialDal.GetListAsync();
         }
 
-        public async Task InsertAsync(Testimonial t)
+        public async Task TInsertAsync(Testimonial t)
         {
             await _testimonialDal.InsertAsync(t);
         }
 
-        public async Task UpdateAsync(Testimonial t)
+        public async Task TUpdateAsync(Testimonial t)
         {
             await _testimonialDal.UpdateAsync(t);
         }
+
+        
     }
 }
