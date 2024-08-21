@@ -17,19 +17,19 @@ namespace HotelProject.WebApi.Controllers
         }
 
         [HttpGet]
-        public  async Task<IActionResult> StaffList()
+        public async Task<IActionResult> StaffList()
         {
             return Ok(await _staffService.TGetListAsync());
         }
         [HttpPost]
-        public  async Task<IActionResult> AddStaff(Staff staff)
+        public async Task<IActionResult> AddStaff(Staff staff)
         {
-            
+
             await _staffService.TInsertAsync(staff);
             return Ok();
-          
+
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteStaff(int id)
         {
 
