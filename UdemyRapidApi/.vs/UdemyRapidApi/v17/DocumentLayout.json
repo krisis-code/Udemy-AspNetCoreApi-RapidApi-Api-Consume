@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\models\\staff\\staffviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\models\\staff\\staffviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C79C74B-4E4F-484C-B5AB-6FEEA419B880}|ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\apiconsume\\hotelproject.entitylayer\\concrete\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C79C74B-4E4F-484C-B5AB-6FEEA419B880}|ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj|solutionrelative:apiconsume\\hotelproject.entitylayer\\concrete\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76DAD9EA-42FC-492A-9DE4-344A2DC654C7}|ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\apiconsume\\hotelproject.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DAD9EA-42FC-492A-9DE4-344A2DC654C7}|ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj|solutionrelative:apiconsume\\hotelproject.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\views\\adminlayout\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\views\\adminlayout\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -30,24 +50,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.EntityLayer\\Concrete\\Staff.cs",
+              "RelativeDocumentMoniker": "ApiConsume\\HotelProject.EntityLayer\\Concrete\\Staff.cs",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.EntityLayer\\Concrete\\Staff.cs",
+              "RelativeToolTip": "ApiConsume\\HotelProject.EntityLayer\\Concrete\\Staff.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T07:54:31.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ScriptPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\AdminLayout\\ScriptPartial.cshtml",
-              "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\AdminLayout\\ScriptPartial.cshtml",
-              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\AdminLayout\\ScriptPartial.cshtml*",
-              "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Views\\AdminLayout\\ScriptPartial.cshtml*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-20T19:57:17.696Z",
+              "Title": "StaffViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Models\\Staff\\StaffViewModel.cs",
+              "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Models\\Staff\\StaffViewModel.cs",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Models\\Staff\\StaffViewModel.cs*",
+              "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Models\\Staff\\StaffViewModel.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T07:54:15.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Controllers\\StaffController.cs",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Controllers\\StaffController.cs*",
+              "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Controllers\\StaffController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T07:51:55.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "ApiConsume\\HotelProject.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.WebApi\\Program.cs*",
+              "RelativeToolTip": "ApiConsume\\HotelProject.WebApi\\Program.cs*",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T07:43:35.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Program.cs",
+              "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Program.cs",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Program.cs",
+              "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T07:42:59.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ScriptPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\AdminLayout\\ScriptPartial.cshtml",
+              "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\AdminLayout\\ScriptPartial.cshtml",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\AdminLayout\\ScriptPartial.cshtml",
+              "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Views\\AdminLayout\\ScriptPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T19:57:17.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "FooterPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\AdminLayout\\FooterPartial.cshtml",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\AdminLayout\\FooterPartial.cshtml",
@@ -55,12 +139,11 @@
               "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Views\\AdminLayout\\FooterPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-20T19:55:35.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T19:55:35.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "SidebarPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\AdminLayout\\SidebarPartial.cshtml",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\AdminLayout\\SidebarPartial.cshtml",
@@ -68,12 +151,11 @@
               "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Views\\AdminLayout\\SidebarPartial.cshtml",
               "ViewState": "AQIAAEsAAAAAAAAAAAAAwJcAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-20T19:53:39.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T19:53:39.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "AdminLayoutController.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Controllers\\AdminLayoutController.cs",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Controllers\\AdminLayoutController.cs",
@@ -81,17 +163,16 @@
               "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Controllers\\AdminLayoutController.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAowCgAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T19:50:33.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T19:50:33.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\AdminLayout\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\AdminLayout\\_AdminLayout.cshtml",
-              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\AdminLayout\\_AdminLayout.cshtml*",
-              "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Views\\AdminLayout\\_AdminLayout.cshtml*",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\AdminLayout\\_AdminLayout.cshtml",
+              "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Views\\AdminLayout\\_AdminLayout.cshtml",
               "ViewState": "AQIAAEEAAAAAAAAAAAAAAFoAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-20T19:50:36.479Z",
