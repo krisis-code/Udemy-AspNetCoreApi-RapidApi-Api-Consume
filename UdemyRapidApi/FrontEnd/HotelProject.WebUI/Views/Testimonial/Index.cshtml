@@ -1,0 +1,61 @@
+﻿@model List<TestimonialViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Personel Listesi</h4>
+                    <div class="table-responsive">
+                        <table class="table table-striped table-bordered zero-configuration">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Referans Adı</th>
+                                    <th>Referans Ünvan</th>
+                                    <th>Bilgi</th>
+                                    <th>Resim Url</th>
+                                    <th>Sil</th>
+                                    <th>Güncelle</th>
+                                 
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.TestimonialId</td>
+                                        <td>@item.Name</td>
+                                        <td>@item.Title</td>
+                                        <td>@item.Description</td>
+                                        <td>@item.Image</td>
+                                        <td><a href="/Testimonial/DeleteTestimonial/@item.TestimonialId" class="btn btn-danger">Sil</a></td>
+                                        <td><a href="/Testimonial/UpdateTestimonial/@item.TestimonialId" class="btn btn-success">Güncelle</a></td>
+                                    </tr>
+                                }
+
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Referans Adı</th>
+                                    <th>Referans Ünvan</th>
+                                    <th>Bilgi</th>
+                                    <th>Resim Url</th>
+                                    <th>Sil</th>
+                                    <th>Güncelle</th>
+                                    <th>Detaylar</th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a href="/Staff/AddStaff" class="btn btn-info">Yeni Referans Ekle</a>
