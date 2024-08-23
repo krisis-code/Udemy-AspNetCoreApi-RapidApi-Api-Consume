@@ -30,7 +30,7 @@ namespace HotelProject.WebUI.Controllers
             return View();
         }
         [HttpGet]
-        public IActionResult AddStaff()
+        public IActionResult AddService()
         {
             return View();
         }
@@ -47,7 +47,7 @@ namespace HotelProject.WebUI.Controllers
             }
             return View();
         }
-
+       
         public async Task<IActionResult> DeleteService(int id)
         {
             var client = _httpClientFactory.CreateClient();
@@ -58,6 +58,7 @@ namespace HotelProject.WebUI.Controllers
             }
             return View();
         }
+       
 
         [HttpGet]
         public async Task<IActionResult> UpdateService(int id)
@@ -67,7 +68,7 @@ namespace HotelProject.WebUI.Controllers
             if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<UpdateStaffViewModel>(jsonData);
+                var values = JsonConvert.DeserializeObject<UpdateServiceDto>(jsonData);
                 return View(values);
             }
             return View();
@@ -75,6 +76,10 @@ namespace HotelProject.WebUI.Controllers
         [HttpPost]
         public async Task<IActionResult> UpdateService(UpdateServiceDto model)
         {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
             var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(model);
             StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");

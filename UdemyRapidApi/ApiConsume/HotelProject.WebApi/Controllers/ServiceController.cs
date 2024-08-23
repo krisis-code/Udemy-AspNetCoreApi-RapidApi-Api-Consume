@@ -27,7 +27,7 @@ namespace HotelProject.WebApi.Controllers
             await _serviceService.TInsertAsync(Service);
             return Ok();
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteService(int id)
         {
             await _serviceService.TDeleteAsync(await _serviceService.TGetByIdAsync(id));
