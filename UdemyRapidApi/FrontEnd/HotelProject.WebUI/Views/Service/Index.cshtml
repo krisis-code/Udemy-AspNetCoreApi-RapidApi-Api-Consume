@@ -1,4 +1,4 @@
-﻿@model List<TestimonialViewModel>
+﻿@model List<ResultServiceDto>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
@@ -15,40 +15,37 @@
                             <thead>
                                 <tr>
                                     <th>#</th>
-                                    <th>Referans Adı</th>
-                                    <th>Referans Ünvan</th>
-                                    <th>Bilgi</th>
-                                    <th>Resim Url</th>
+                                    <th>Service İkonu</th>
+                                    <<th>Service Adı</th>
+                                    <th>Service Açıklaması</th>
                                     <th>Sil</th>
                                     <th>Güncelle</th>
-                                 
                                 </tr>
                             </thead>
                             <tbody>
                                 @foreach (var item in Model)
                                 {
                                     <tr>
-                                        <td>@item.TestimonialId</td>
-                                        <td>@item.Name</td>
+                                        <td>@item.ServiceId</td>
+                                        <td>@item.ServiceIcon</td>
                                         <td>@item.Title</td>
                                         <td>@item.Description</td>
-                                        <td>@item.Image</td>
-                                        <td><a href="/Testimonial/DeleteTestimonial/@item.TestimonialId" class="btn btn-danger">Sil</a></td>
-                                        <td><a href="/Testimonial/UpdateTestimonial/@item.TestimonialId" class="btn btn-success">Güncelle</a></td>
+                                        <td><a href="/Service/DeleteService/@item.ServiceId" class="btn btn-danger">Sil</a></td>
+                                        <td><a href="/Service/UpdateService/@item.ServiceId" class="btn btn-success">Güncelle</a></td>
+                                       
+
                                     </tr>
                                 }
 
                             </tbody>
                             <tfoot>
                                 <tr>
-                                    <th>#</th>
-                                    <th>Referans Adı</th>
-                                    <th>Referans Ünvan</th>
-                                    <th>Bilgi</th>
-                                    <th>Resim Url</th>
+                                   <th>#</th>
+                                    <th>Service İkonu</th>
+                                    <<th>Service Adı</th>
+                                    <th>Service Açıklaması</th>
                                     <th>Sil</th>
                                     <th>Güncelle</th>
-                            
                                 </tr>
                             </tfoot>
                         </table>
@@ -58,4 +55,4 @@
         </div>
     </div>
 </div>
-<a href="/Staff/AddStaff" class="btn btn-info">Yeni Referans Ekle</a>
+<a href="/Service/AddService" class="btn btn-info">Yeni Servis Ekle</a>

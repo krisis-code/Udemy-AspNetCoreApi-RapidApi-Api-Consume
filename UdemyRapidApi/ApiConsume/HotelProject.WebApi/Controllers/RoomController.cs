@@ -1,4 +1,6 @@
-﻿using HotelProject.BusinessLayer.Abstract;
+﻿using AutoMapper;
+using HotelProject.BusinessLayer.Abstract;
+using HotelProject.DtoLayer.Dtos.RoomDto;
 using HotelProject.EntityLayer.Concrete;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -10,10 +12,12 @@ namespace HotelProject.WebApi.Controllers
     public class RoomController : ControllerBase
     {
         private readonly IRoomService _roomService;
+        private readonly IMapper _mapper;
 
-        public RoomController(IRoomService roomService)
+        public RoomController(IRoomService roomService, IMapper mapper)
         {
                 _roomService = roomService;
+                _mapper = mapper;
         }
 
         [HttpGet]
@@ -22,9 +26,15 @@ namespace HotelProject.WebApi.Controllers
             return Ok(await _roomService.TGetListAsync());
         }
         [HttpPost]
-        public async Task<IActionResult> AddRoom(Room room)
+        public async Task<IActionResult> AddRoom(RoomAddDto roomAddDto)
         {
-            await _roomService.TInsertAsync(room);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+
+
+            await _roomService.TInsertAsync(_mapper.Map<Room>(roomAddDto));
             return Ok();
         }
         [HttpDelete]
@@ -34,9 +44,15 @@ namespace HotelProject.WebApi.Controllers
             return Ok();
         }
         [HttpPut]
-        public async Task < IActionResult> UpdateRoom(Room room)
+        public async Task < IActionResult> UpdateRoom(UpdateRoomDto updateRoomDto)
         {
-            await _roomService.TUpdateAsync(room);
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+
+            await _roomService.TUpdateAsync(_mapper.Map<Room>(updateRoomDto));
             return Ok();
         }
         [HttpGet("{id}")]
