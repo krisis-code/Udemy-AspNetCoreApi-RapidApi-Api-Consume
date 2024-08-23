@@ -1,0 +1,58 @@
+﻿@model UpdateServiceDto
+@{
+    ViewData["Title"] = "UpdateService";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<div class="content-body">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="form-validation">
+                            <form class="form-valide" action="UpdateService" method="post">
+                                <input type="hidden" asp-for="ServiceId" />
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label">
+                                        Servis ikonu <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="text" asp-for="ServiceIcon" class="form-control" placeholder="Servis ikon url si giriniz..">
+                                        <span asp-validation-for="ServiceIcon"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label">
+                                        Service Başlık <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="text" asp-for="Title" class="form-control" placeholder="Servis Başlığı giriniz..">
+                                        <span asp-validation-for="Title"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label">
+                                        Service Açıklaması <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="text" asp-for="Description" class="form-control" placeholder="Servis bilgisi giriniz..">
+                                        <span asp-validation-for="Description"></span>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group row">
+                                    <div class="col-lg-8 ml-auto">
+                                        <button type="submit" class="btn btn-primary">Servis Güncelle</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #/ container -->
+</div>
