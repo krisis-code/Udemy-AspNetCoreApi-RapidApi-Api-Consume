@@ -15,6 +15,8 @@ namespace HotelProject.WebUI.Dtos.RegisterDto
 
         [Required(ErrorMessage = "Mail Alanı gereklidir")]
         public string Mail { get; set; }
+      
+     
 
         [Required(ErrorMessage = "Şifre Alanı gereklidir")]
         public string Password { get; set; }
@@ -22,5 +24,7 @@ namespace HotelProject.WebUI.Dtos.RegisterDto
         [Required(ErrorMessage = "Şifre tekrar Alanı gereklidir")]
         [Compare("Password",ErrorMessage = "Girilen şifreler eşleşmiyor")]
         public string ConfirmPassword { get; set; }
+
+  
     }
 }

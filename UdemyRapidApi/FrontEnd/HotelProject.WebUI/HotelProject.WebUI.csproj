@@ -27,7 +27,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\ApiConsume\HotelProject.DataAccessLayer\HotelProject.DataAccessLayer.csproj" />
     <ProjectReference Include="..\..\ApiConsume\HotelProject.EntityLayer\HotelProject.EntityLayer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Shared\" />
   </ItemGroup>
 
 </Project>
