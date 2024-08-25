@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\viewcomponents\\default\\_testimonialpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\viewcomponents\\default\\_testimonialpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C79C74B-4E4F-484C-B5AB-6FEEA419B880}|ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\apiconsume\\hotelproject.entitylayer\\concrete\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C79C74B-4E4F-484C-B5AB-6FEEA419B880}|ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj|solutionrelative:apiconsume\\hotelproject.entitylayer\\concrete\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\dtos\\testimonialdto\\resulttestimonialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\dtos\\testimonialdto\\resulttestimonialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\viewcomponents\\default\\_teampartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\viewcomponents\\default\\_teampartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C79C74B-4E4F-484C-B5AB-6FEEA419B880}|ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\apiconsume\\hotelproject.entitylayer\\concrete\\testimonial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C79C74B-4E4F-484C-B5AB-6FEEA419B880}|ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj|solutionrelative:apiconsume\\hotelproject.entitylayer\\concrete\\testimonial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\dtos\\staffdto\\resultstaffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\dtos\\staffdto\\resultstaffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\views\\shared\\components\\_teampartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\views\\shared\\components\\_teampartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\views\\shared\\components\\_testimonialpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\views\\shared\\components\\_testimonialpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\viewcomponents\\default\\_aboutpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\viewcomponents\\default\\_aboutpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\mapping\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\mapping\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\viewcomponents\\default\\_aboutpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\viewcomponents\\default\\_aboutpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\dtos\\testimonialdto\\resulttestimonialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\dtos\\testimonialdto\\resulttestimonialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\viewcomponents\\default\\_testimonialpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\viewcomponents\\default\\_testimonialpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C79C74B-4E4F-484C-B5AB-6FEEA419B880}|ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\apiconsume\\hotelproject.entitylayer\\concrete\\testimonial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C79C74B-4E4F-484C-B5AB-6FEEA419B880}|ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj|solutionrelative:apiconsume\\hotelproject.entitylayer\\concrete\\testimonial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\kris\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\views\\shared\\components\\_servicepartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -206,33 +222,59 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_TestimonialPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_TestimonialPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_TestimonialPartial\\Default.cshtml",
-              "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_TestimonialPartial\\Default.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-25T12:05:06.72Z",
+              "DocumentIndex": 1,
+              "Title": "_TeamPartial.cs",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\ViewComponents\\Default\\_TeamPartial.cs",
+              "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\ViewComponents\\Default\\_TeamPartial.cs",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\ViewComponents\\Default\\_TeamPartial.cs",
+              "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\ViewComponents\\Default\\_TeamPartial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T13:10:19.165Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Testimonial.cs",
-              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.EntityLayer\\Concrete\\Testimonial.cs",
-              "RelativeDocumentMoniker": "ApiConsume\\HotelProject.EntityLayer\\Concrete\\Testimonial.cs",
-              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.EntityLayer\\Concrete\\Testimonial.cs",
-              "RelativeToolTip": "ApiConsume\\HotelProject.EntityLayer\\Concrete\\Testimonial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
+              "Title": "ResultStaffDto.cs",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Dtos\\StaffDto\\ResultStaffDto.cs",
+              "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Dtos\\StaffDto\\ResultStaffDto.cs",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Dtos\\StaffDto\\ResultStaffDto.cs",
+              "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Dtos\\StaffDto\\ResultStaffDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T12:03:52.818Z",
+              "WhenOpened": "2024-08-25T13:08:35.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_TeamPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_TeamPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_TeamPartial\\Default.cshtml",
+              "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_TeamPartial\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-25T13:07:10.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.EntityLayer\\Concrete\\Staff.cs",
+              "RelativeDocumentMoniker": "ApiConsume\\HotelProject.EntityLayer\\Concrete\\Staff.cs",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.EntityLayer\\Concrete\\Staff.cs",
+              "RelativeToolTip": "ApiConsume\\HotelProject.EntityLayer\\Concrete\\Staff.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T13:06:04.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ResultTestimonialDto.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Dtos\\TestimonialDto\\ResultTestimonialDto.cs",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Dtos\\TestimonialDto\\ResultTestimonialDto.cs",
@@ -245,7 +287,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "AutoMapperConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Mapping\\AutoMapperConfig.cs",
+              "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Mapping\\AutoMapperConfig.cs",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Mapping\\AutoMapperConfig.cs",
+              "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Mapping\\AutoMapperConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T18:49:15.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T18:54:46.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_TestimonialPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_TestimonialPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_TestimonialPartial\\Default.cshtml",
+              "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_TestimonialPartial\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAB6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-25T12:05:06.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "_TestimonialPartial.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\ViewComponents\\Default\\_TestimonialPartial.cs",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\ViewComponents\\Default\\_TestimonialPartial.cs",
@@ -258,7 +339,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
+              "Title": "_AboutPartial.cs",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\ViewComponents\\Default\\_AboutPartial.cs",
+              "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\ViewComponents\\Default\\_AboutPartial.cs",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\ViewComponents\\Default\\_AboutPartial.cs",
+              "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\ViewComponents\\Default\\_AboutPartial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T18:53:12.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Testimonial.cs",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.EntityLayer\\Concrete\\Testimonial.cs",
+              "RelativeDocumentMoniker": "ApiConsume\\HotelProject.EntityLayer\\Concrete\\Testimonial.cs",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.EntityLayer\\Concrete\\Testimonial.cs",
+              "RelativeToolTip": "ApiConsume\\HotelProject.EntityLayer\\Concrete\\Testimonial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T12:03:52.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "_ServicePartial.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\ViewComponents\\Default\\_ServicePartial.cs",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\ViewComponents\\Default\\_ServicePartial.cs",
@@ -271,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_ServicePartial\\Default.cshtml",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_ServicePartial\\Default.cshtml",
@@ -284,33 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AutoMapperConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Mapping\\AutoMapperConfig.cs",
-              "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Mapping\\AutoMapperConfig.cs",
-              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Mapping\\AutoMapperConfig.cs",
-              "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Mapping\\AutoMapperConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T18:49:15.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-24T18:54:46.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_RoomPartial\\Default.cshtml",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_RoomPartial\\Default.cshtml",
@@ -323,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_VideoPartial\\Default.cshtml",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_VideoPartial\\Default.cshtml",
@@ -336,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\wwwroot\\hotel-html-template\\index.html",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\wwwroot\\hotel-html-template\\index.html",
@@ -349,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "ResultServiceDto.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Dtos\\ServiceDto\\ResultServiceDto.cs",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Dtos\\ServiceDto\\ResultServiceDto.cs",
@@ -362,20 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_AboutPartial.cs",
-              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\ViewComponents\\Default\\_AboutPartial.cs",
-              "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\ViewComponents\\Default\\_AboutPartial.cs",
-              "ToolTip": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\ViewComponents\\Default\\_AboutPartial.cs",
-              "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\ViewComponents\\Default\\_AboutPartial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T18:53:12.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_AboutPartial\\Default.cshtml",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_AboutPartial\\Default.cshtml",
@@ -388,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "_RoomPartial.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\ViewComponents\\Default\\_RoomPartial.cs",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\ViewComponents\\Default\\_RoomPartial.cs",
@@ -401,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "RoomResultDto.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Dtos\\RoomDto\\RoomResultDto.cs",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Dtos\\RoomDto\\RoomResultDto.cs",
@@ -414,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Room.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.EntityLayer\\Concrete\\Room.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.EntityLayer\\Concrete\\Room.cs",
@@ -427,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\Default\\Index.cshtml",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\Default\\Index.cshtml",
@@ -440,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "AboutUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.DtoLayer\\Dtos\\AboutDto\\AboutUpdateDto.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.DtoLayer\\Dtos\\AboutDto\\AboutUpdateDto.cs",
@@ -452,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "ServiceController.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Controllers\\ServiceController.cs",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Controllers\\ServiceController.cs",
@@ -464,7 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "UpdateRoomDto.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.DtoLayer\\Dtos\\RoomDto\\UpdateRoomDto.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.DtoLayer\\Dtos\\RoomDto\\UpdateRoomDto.cs",
@@ -476,7 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "AboutController.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.WebApi\\Controllers\\AboutController.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.WebApi\\Controllers\\AboutController.cs",
@@ -489,7 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "AboutResultDto.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Dtos\\AboutDto\\AboutResultDto.cs",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Dtos\\AboutDto\\AboutResultDto.cs",
@@ -501,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "AboutUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Dtos\\AboutDto\\AboutUpdateDto.cs",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Dtos\\AboutDto\\AboutUpdateDto.cs",
@@ -513,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "CreateServiceDto.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Dtos\\ServiceDto\\CreateServiceDto.cs",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Dtos\\ServiceDto\\CreateServiceDto.cs",
@@ -525,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "AboutAddDto.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Dtos\\AboutDto\\AboutAddDto.cs",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Dtos\\AboutDto\\AboutAddDto.cs",
@@ -537,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.WebApi\\Program.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.WebApi\\Program.cs",
@@ -549,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "RoomAddDto.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.DtoLayer\\Dtos\\RoomDto\\RoomAddDto.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.DtoLayer\\Dtos\\RoomDto\\RoomAddDto.cs",
@@ -561,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "AboutAddDto.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.DtoLayer\\Dtos\\AboutDto\\AboutAddDto.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.DtoLayer\\Dtos\\AboutDto\\AboutAddDto.cs",
@@ -573,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "AutoMapperConfig.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.WebApi\\Mapper\\AutoMapperConfig.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.WebApi\\Mapper\\AutoMapperConfig.cs",
@@ -585,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "RoomController.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.WebApi\\Controllers\\RoomController.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.WebApi\\Controllers\\RoomController.cs",
@@ -593,11 +661,12 @@
               "RelativeToolTip": "ApiConsume\\HotelProject.WebApi\\Controllers\\RoomController.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAAwwD4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T18:30:31.611Z"
+              "WhenOpened": "2024-08-24T18:30:31.611Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "About.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.EntityLayer\\Concrete\\About.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.EntityLayer\\Concrete\\About.cs",
@@ -609,7 +678,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "HotelProject.WebApi.csproj",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj",
@@ -621,7 +690,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "RoomManager.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.BusinessLayer\\Concrete\\RoomManager.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.BusinessLayer\\Concrete\\RoomManager.cs",
@@ -629,11 +698,12 @@
               "RelativeToolTip": "ApiConsume\\HotelProject.BusinessLayer\\Concrete\\RoomManager.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAowCwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T18:28:12.094Z"
+              "WhenOpened": "2024-08-24T18:28:12.094Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "AboutManager.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.BusinessLayer\\Concrete\\AboutManager.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.BusinessLayer\\Concrete\\AboutManager.cs",
@@ -645,7 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "IRoomService.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.BusinessLayer\\Abstract\\IRoomService.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.BusinessLayer\\Abstract\\IRoomService.cs",
@@ -657,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "IAboutService.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.BusinessLayer\\Abstract\\IAboutService.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.BusinessLayer\\Abstract\\IAboutService.cs",
@@ -669,7 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "EfRoomDal.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.DataAccessLayer\\EntityFramework\\EfRoomDal.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.DataAccessLayer\\EntityFramework\\EfRoomDal.cs",
@@ -681,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "EfAboutDal.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.DataAccessLayer\\EntityFramework\\EfAboutDal.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.DataAccessLayer\\EntityFramework\\EfAboutDal.cs",
@@ -693,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 44,
               "Title": "IRoomDal.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.DataAccessLayer\\Abstract\\IRoomDal.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.DataAccessLayer\\Abstract\\IRoomDal.cs",
@@ -705,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 45,
               "Title": "IServiceDal.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.DataAccessLayer\\Abstract\\IServiceDal.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.DataAccessLayer\\Abstract\\IServiceDal.cs",
@@ -717,7 +787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 46,
               "Title": "IGenericDal.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.DataAccessLayer\\Abstract\\IGenericDal.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.DataAccessLayer\\Abstract\\IGenericDal.cs",
@@ -729,7 +799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "IAboutDal.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.DataAccessLayer\\Abstract\\IAboutDal.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.DataAccessLayer\\Abstract\\IAboutDal.cs",
@@ -741,7 +811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 51,
               "Title": "20240824182242_abouts.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.DataAccessLayer\\Migrations\\20240824182242_abouts.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.DataAccessLayer\\Migrations\\20240824182242_abouts.cs",
@@ -753,7 +823,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 47,
               "Title": "Context.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.DataAccessLayer\\Concrete\\Context.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.DataAccessLayer\\Concrete\\Context.cs",
@@ -765,7 +835,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 48,
               "Title": "_ScriptPartial.cs",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\ViewComponents\\Default\\_ScriptPartial.cs",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\ViewComponents\\Default\\_ScriptPartial.cs",
@@ -777,7 +847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 49,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_ScriptPartial\\Default.cshtml",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_ScriptPartial\\Default.cshtml",
@@ -789,7 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 50,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_FooterPartial\\Default.cshtml",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_FooterPartial\\Default.cshtml",
