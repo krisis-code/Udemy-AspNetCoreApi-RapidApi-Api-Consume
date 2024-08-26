@@ -13,6 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<Context>();
 builder.Services.AddScoped<IStaffDal,EfStaffDal>();
 builder.Services.AddScoped<IStaffService, StaffManager>();
+
 builder.Services.AddScoped<IRoomDal, EfRoomDal>();
 builder.Services.AddScoped<IRoomService, RoomManager>();
 builder.Services.AddScoped<IServiceDal, EfServiceDal>();
