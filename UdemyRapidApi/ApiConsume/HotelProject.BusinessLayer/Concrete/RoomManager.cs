@@ -10,38 +10,14 @@ using System.Threading.Tasks;
 
 namespace HotelProject.BusinessLayer.Concrete
 {
-    public class RoomManager : IRoomService
+    public class RoomManager : GenericManager<Room>,IRoomService
     {
         private readonly IRoomDal _roomDal;
 
-        public RoomManager(IRoomDal roomDal)
+        public RoomManager(IRoomDal roomDal) : base(roomDal) 
         {
             _roomDal = roomDal;
         }
-        public async Task TDeleteAsync(Room t)
-        {
-          await  _roomDal.DeleteAsync(t);
-            
-        }
-
-        public async Task<Room> TGetByIdAsync(int id)
-        {
-            return await _roomDal.GetByIdAsync(id);
-        }
-
-        public async Task<List<Room>> TGetListAsync()
-        {
-            return await _roomDal.GetListAsync();
-        }
-
-        public async Task TInsertAsync(Room t)
-        {
-             await _roomDal.InsertAsync(t);
-        }
-
-        public async Task TUpdateAsync(Room t)
-        {
-            await _roomDal.UpdateAsync(t);
-        }
+    
     }
 }
