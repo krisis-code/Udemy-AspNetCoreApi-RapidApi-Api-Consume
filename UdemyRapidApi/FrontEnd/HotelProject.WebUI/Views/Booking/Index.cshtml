@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     Layout = null;
 }
 
@@ -10,21 +9,31 @@
 
 <body>
     <div class="container-xxl bg-white p-0">
-
+        <!-- Spinner Start -->
         @await Component.InvokeAsync("_SpinnerPartial")
 
+        <!-- Spinner End -->
+        <!-- Header Start -->
         @await Component.InvokeAsync("_NavbarPartial")
-
+        <!-- Header End -->
         @await Component.InvokeAsync("_BookingCoverPartial")
-
+        <!-- Rezervasyon Başlangıç -->
+        @await Component.InvokeAsync("_ReservationPartial")
+        <!-- Rezervasyon Bitiş -->
         @await Html.PartialAsync("/Views/Booking/AddBooking.cshtml")
-
+        <!-- Newsletter Start -->
         @await Html.PartialAsync("/Views/Default/_SubscribePartial.cshtml")
-
+        <!-- Newsletter Start -->
+        <!-- Footer Start -->
         @await Component.InvokeAsync("_FooterPartial")
 
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        <!-- Footer End -->
+        <!-- Back to Top -->
+        <a href="~/hotel-html-template/#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
-    @await Component.InvokeAsync("_ScriptsPartial")
+
+    <!-- JavaScript Libraries -->
+    @await Component.InvokeAsync("_ScriptPartial")
 </body>
+
 </html>
