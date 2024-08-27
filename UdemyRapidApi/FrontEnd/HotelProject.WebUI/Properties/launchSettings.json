@@ -15,7 +15,8 @@
       "launchBrowser": true,
       "applicationUrl": "http://localhost:5196",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DB_CONNECTION_STRING": "Server=45.84.189.34\\MSSQLSERVER2022; Database=enesbasp_apidb; User Id=enesbasp_enesbaspinar; Password=Swgk25413789*; Encrypt=False;"
       }
     },
     "https": {
@@ -24,14 +25,16 @@
       "launchBrowser": true,
       "applicationUrl": "https://localhost:7119;http://localhost:5196",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DB_CONNECTION_STRING": "Server=45.84.189.34\\MSSQLSERVER2022; Database=enesbasp_apidb; User Id=enesbasp_enesbaspinar; Password=Swgk25413789*; Encrypt=False;"
       }
     },
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DB_CONNECTION_STRING": "Server=45.84.189.34\\MSSQLSERVER2022; Database=enesbasp_apidb; User Id=enesbasp_enesbaspinar; Password=Swgk25413789*; Encrypt=False;"
       }
     }
   }
