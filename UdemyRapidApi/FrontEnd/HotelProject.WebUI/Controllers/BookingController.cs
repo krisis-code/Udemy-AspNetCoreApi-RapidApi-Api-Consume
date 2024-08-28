@@ -1,4 +1,5 @@
-﻿using HotelProject.WebUI.Dtos.BookingDto;
+﻿using HotelProject.EntityLayer.Concrete;
+using HotelProject.WebUI.Dtos.BookingDto;
 using HotelProject.WebUI.Dtos.SubscribeDto;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -30,7 +31,7 @@ namespace HotelProject.WebUI.Controllers
             try
             {
                 createBookingDto.Status = "Onay Bekliyor";
-                createBookingDto.Description = "Nsdfsdfsull";
+                createBookingDto.Description = "Bilgi";
                 var client = _httpClientFactory.CreateClient();
                 var jsonData = JsonConvert.SerializeObject(createBookingDto);
                 StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
@@ -45,5 +46,6 @@ namespace HotelProject.WebUI.Controllers
             
          
         }
+       
     }
 }

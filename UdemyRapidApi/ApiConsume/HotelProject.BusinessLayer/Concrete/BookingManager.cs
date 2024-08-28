@@ -13,6 +13,14 @@ namespace HotelProject.BusinessLayer.Concrete
             _bookingDal = bookingDal;
         }
 
-        
+        public async Task TBookingStatusChangeAprovedAsync(Booking booking)
+        {
+            await _bookingDal.BookingStatusChangeAprovedAsync(booking);
+        }
+
+        public async Task TBookingStatusChangeAprovedByIdAsync(int id)
+        {
+          await  _bookingDal.BookingStatusChangeAprovedByIdAsync(id);
+        }
     }
 }

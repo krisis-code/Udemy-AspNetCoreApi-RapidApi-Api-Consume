@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using HotelProject.BusinessLayer.Abstract;
+using HotelProject.DataAccessLayer.Concrete;
 using HotelProject.DtoLayer.Dtos.AboutDto;
 using HotelProject.DtoLayer.Dtos.BookingDto;
 using HotelProject.EntityLayer.Concrete;
@@ -22,12 +23,12 @@ namespace HotelProject.WebApi.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> AboutList()
+        public async Task<IActionResult> BookingList()
         {
             return Ok(await _bookingService.TGetListAsync());
         }
         [HttpPost]
-        public async Task<IActionResult> AddAbout(BookingAddDto bookingAdd)
+        public async Task<IActionResult> AddBooking(BookingAddDto bookingAdd)
         {
             if (!ModelState.IsValid)
             {
@@ -39,13 +40,13 @@ namespace HotelProject.WebApi.Controllers
             return Ok();
         }
         [HttpDelete]
-        public async Task<IActionResult> DeleteAbout(int id)
+        public async Task<IActionResult> DeleteBooking(int id)
         {
             await _bookingService.TDeleteAsync(await _bookingService.TGetByIdAsync(id));
             return Ok();
         }
-        [HttpPut]
-        public async Task<IActionResult> UpdateAbout(BookingUpdateDto bookingUpdate)
+        [HttpPut("UpdateBooking")]
+        public async Task<IActionResult> UpdateBooking(BookingUpdateDto bookingUpdate)
         {
 
             if (!ModelState.IsValid)
@@ -57,10 +58,25 @@ namespace HotelProject.WebApi.Controllers
             return Ok();
         }
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetAbout(int id)
+        public async Task<IActionResult> GetBooking(int id)
         {
 
             return Ok(await _bookingService.TGetByIdAsync(id));
         }
+
+        [HttpPut("BookingStatusChangeAprovedAsync")]
+        public async Task<IActionResult> BookingStatusChangeAprovedAsync(Booking booking)
+        {
+            await _bookingService.TBookingStatusChangeAprovedAsync(booking);
+            return Ok();
+        }
+        [HttpGet("BookingStatusChangeAprovedByIdAsync")]
+    
+        public async Task<IActionResult> BookingStatusChangeAprovedByIdAsync(int id)
+        {
+          await  _bookingService.TBookingStatusChangeAprovedByIdAsync(id);
+            return Ok();
+        }
+
     }
 }
