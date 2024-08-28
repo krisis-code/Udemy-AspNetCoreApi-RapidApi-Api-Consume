@@ -9,5 +9,7 @@ namespace HotelProject.DataAccessLayer.Abstract
 {
     public interface IBookingDal : IGenericDal<Booking>
     {
+        Task BookingStatusChangeAprovedAsync(Booking booking);
+        Task BookingStatusChangeAprovedByIdAsync(int id);
     }
 }

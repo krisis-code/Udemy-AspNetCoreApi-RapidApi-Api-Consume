@@ -9,5 +9,8 @@ namespace HotelProject.BusinessLayer.Abstract
 {
     public interface IBookingService : IGenericService<Booking>
     {
+        Task TBookingStatusChangeAprovedAsync(Booking booking);
+
+        Task TBookingStatusChangeAprovedByIdAsync(int id);
     }
 }
