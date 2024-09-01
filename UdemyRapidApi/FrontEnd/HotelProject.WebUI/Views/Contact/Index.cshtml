@@ -1,7 +1,7 @@
 ﻿@{
     Layout = null;
 }
-
+@* Contact index sayfası *@
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,12 +16,12 @@
         <!-- Header Start -->
         @await Component.InvokeAsync("_NavbarPartial")
         <!-- Header End -->
-        @await Component.InvokeAsync("_BookingCoverPartial")
-        
+        @await Component.InvokeAsync("_ContactCoverPartial")
+
         <!-- Rezervasyon Başlangıç -->
-       @*  @await Component.InvokeAsync("_ReservationPartial") *@
+        @*  @await Component.InvokeAsync("_ReservationPartial") *@
         <!-- Rezervasyon Bitiş -->
-        @await Html.PartialAsync("/Views/Booking/AddBooking.cshtml")
+        @await Html.PartialAsync("/Views/Contact/SendMessage.cshtml")
         <!-- Newsletter Start -->
         @await Html.PartialAsync("/Views/Default/_SubscribePartial.cshtml")
         <!-- Newsletter Start -->

@@ -2,7 +2,8 @@
 {
     public class AboutResultDto
     {
-  
+        public int AbouId { get; set; }
+
         public string Title1 { get; set; }
 
    
