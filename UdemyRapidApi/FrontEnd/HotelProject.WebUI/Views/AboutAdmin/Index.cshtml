@@ -12,7 +12,7 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title">Rezervasyonlar</h4>
+                    <h4 class="card-title">About</h4>
                     <div class="table-responsive">
                         <table class="table table-striped table-bordered zero-configuration">
                             <thead>
@@ -33,7 +33,7 @@
                                 @foreach (var item in Model)
                                 {
                                     <tr>
-                                        <td>@item.AbouId</td>
+                                        <td>@item.AboutId</td>
                                         <td>@item.Title1</td>
                                         <td>@item.Title2</td>
                                         <td>@item.Content</td>
@@ -41,8 +41,8 @@
                                         <td>@item.RoomCount</td>
                                         <td>@item.StaffCount</td>
                                         <td>@item.CustomerCount</td>
-                                        
-                                        <td><a href="/AboutAdmin/Update/@item.AbouId" class="btn btn-primary">Onayla</a></td>
+
+                                        <td><a href="/AboutAdmin/UpdateAbout/@item.AboutId" class="btn btn-primary">Güncelle</a></td>
                                        
 
 

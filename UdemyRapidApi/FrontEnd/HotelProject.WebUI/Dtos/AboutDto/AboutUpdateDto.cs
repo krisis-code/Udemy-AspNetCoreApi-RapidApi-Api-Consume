@@ -9,7 +9,7 @@ namespace HotelProject.WebUI.Dtos.AboutDto
 {
     public class AboutUpdateDto
     {
-        public int AbouId { get; set; }
+        public int AboutId { get; set; }
 
         [Required(ErrorMessage = "Lütfen 1. başlığı giriniz")]
         public string Title1 { get; set; }
