@@ -47,10 +47,10 @@ namespace HotelProject.WebUI.Controllers
             return View();
         }
 
-        public async Task<IActionResult> DeleteRoom(int id)
+        public async Task<IActionResult> DeleteGuest(int id)
         {
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.DeleteAsync($"http://localhost:5290/api/Room/{id}");
+            var responseMessage = await client.DeleteAsync($"http://localhost:5290/api/Guest/{id}");
             if (responseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
