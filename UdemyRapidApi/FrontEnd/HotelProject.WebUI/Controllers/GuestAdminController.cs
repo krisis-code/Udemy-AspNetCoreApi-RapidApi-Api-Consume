@@ -59,29 +59,29 @@ namespace HotelProject.WebUI.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> UpdateRoom(int id)
+        public async Task<IActionResult> UpdateGuest(int id)
         {
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync($"http://localhost:5290/api/Room/{id}");
+            var responseMessage = await client.GetAsync($"http://localhost:5290/api/Guest/{id}");
             if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<RoomUpdateDto>(jsonData);
+                var values = JsonConvert.DeserializeObject<GuestUpdateDto>(jsonData);
                 return View(values);
             }
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> UpdateRoom(RoomUpdateDto roomUpdateDto)
+        public async Task<IActionResult> UpdateGuest(GuestUpdateDto guestUpdateDto)
         {
             if (!ModelState.IsValid)
             {
                 return View();
             }
             var client = _httpClientFactory.CreateClient();
-            var jsonData = JsonConvert.SerializeObject(roomUpdateDto);
+            var jsonData = JsonConvert.SerializeObject(guestUpdateDto);
             StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
-            var responseMessage = await client.PutAsync("http://localhost:5290/api/Room/", stringContent);
+            var responseMessage = await client.PutAsync("http://localhost:5290/api/Guest/", stringContent);
             if (responseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
