@@ -1,0 +1,105 @@
+﻿@model RoomAddltDto
+@{
+    ViewData["Title"] = "AddRoom";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<div class="content-body">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="form-validation">
+                            <form class="form-valide" asp-action="AddRoom" asp-controller="RoomAdmin" method="post">
+                                
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label">
+                                        Oda Numarası  <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="text" asp-for="RoomNumber" class="form-control" placeholder="Oda Numarası giriniz..">
+                                        <span asp-validation-for="RoomNumber"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label">
+                                        Oda Resmi <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="text" asp-for="RoomCoverImage" class="form-control" placeholder="Oda Resmi giriniz..">
+                                        <span asp-validation-for="RoomCoverImage"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label">
+                                        Başlık <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="text" asp-for="Title" class="form-control" placeholder="Başlık giriniz..">
+                                        <span asp-validation-for="Title"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label">
+                                        Bilgi <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="text" asp-for="Description" class="form-control" placeholder="Bilgi giriniz..">
+                                        <span asp-validation-for="Description"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label">
+                                        Yatak Sayısı <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="text" asp-for="BedCount" class="form-control" placeholder=" Yatak Sayısı  giriniz..">
+                                        <span asp-validation-for="BedCount"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label">
+                                        Banyo Sayısı <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="text" asp-for="BathCount" class="form-control" placeholder=" Banyo Sayısı  giriniz..">
+                                        <span asp-validation-for="BathCount"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label">
+                                        Wifi <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="text" asp-for="Wifi" class="form-control" placeholder=" Wifi bilgisi  giriniz..">
+                                        <span asp-validation-for="Wifi"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label">
+                                        Fiyat <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="text" asp-for="Price" class="form-control" placeholder=" Fiyat bilgisi  giriniz..">
+                                        <span asp-validation-for="Price"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-lg-8 ml-auto">
+                                        <button type="submit" class="btn btn-primary">Kaydet</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #/ container -->
+</div>
+
+
+

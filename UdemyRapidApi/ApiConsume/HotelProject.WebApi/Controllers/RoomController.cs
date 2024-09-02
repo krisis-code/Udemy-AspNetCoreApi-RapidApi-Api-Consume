@@ -37,7 +37,7 @@ namespace HotelProject.WebApi.Controllers
             await _roomService.TInsertAsync(_mapper.Map<Room>(roomAddDto));
             return Ok();
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteRoom(int id)
         {
             await _roomService.TDeleteAsync(await _roomService.TGetByIdAsync(id));
