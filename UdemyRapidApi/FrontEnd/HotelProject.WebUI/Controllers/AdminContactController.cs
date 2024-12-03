@@ -8,5 +8,15 @@ namespace HotelProject.WebUI.Controllers
         {
             return View();
         }
+
+        public PartialViewResult SideBarAdminContactPartial()
+        {
+            return PartialView();
+        }
+
+        public PartialViewResult SideBarAdminGroupPartial()
+        {
+            return PartialView();
+        }
     }
 }

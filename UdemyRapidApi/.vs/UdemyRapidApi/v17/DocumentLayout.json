@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\views\\admincontact\\inbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\wwwroot\\adminweb\\email-inbox.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\wwwroot\\adminweb\\email-inbox.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\views\\admincontact\\sidebaradmincontactpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\views\\admincontact\\sidebaradmincontactpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\views\\admincontact\\sidebaradmingrouppartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\views\\admincontact\\sidebaradmingrouppartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25FB27E7-8A7E-46EE-B80A-F7220097B13D}|FrontEnd\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\udemy-aspnetcoreapi-rapidapi-api-consume\\udemyrapidapi\\frontend\\hotelproject.webui\\controllers\\admincontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,19 +74,32 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SideBarAdminGroupPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\AdminContact\\SideBarAdminGroupPartial.cshtml",
+              "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\AdminContact\\SideBarAdminGroupPartial.cshtml",
+              "ToolTip": "C:\\Users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\AdminContact\\SideBarAdminGroupPartial.cshtml*",
+              "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Views\\AdminContact\\SideBarAdminGroupPartial.cshtml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T12:46:06.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "email-inbox.html",
-              "DocumentMoniker": "C:\\Users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\wwwroot\\adminweb\\email-inbox.html",
-              "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\wwwroot\\adminweb\\email-inbox.html",
-              "ToolTip": "C:\\Users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\wwwroot\\adminweb\\email-inbox.html",
-              "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\wwwroot\\adminweb\\email-inbox.html",
-              "ViewState": "AQIAAOcAAAAAAAAAAAAAAN0CAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-03T11:09:05.038Z",
+              "Title": "SideBarAdminContactPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\AdminContact\\SideBarAdminContactPartial.cshtml",
+              "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\AdminContact\\SideBarAdminContactPartial.cshtml",
+              "ToolTip": "C:\\Users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\AdminContact\\SideBarAdminContactPartial.cshtml",
+              "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Views\\AdminContact\\SideBarAdminContactPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T12:42:25.823Z",
               "EditorCaption": ""
             },
             {
@@ -93,27 +110,27 @@
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\AdminContact\\Inbox.cshtml",
               "ToolTip": "C:\\Users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\AdminContact\\Inbox.cshtml*",
               "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Views\\AdminContact\\Inbox.cshtml*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAB9AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-03T11:08:30.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AdminContactController.cs",
               "DocumentMoniker": "C:\\Users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Controllers\\AdminContactController.cs",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Controllers\\AdminContactController.cs",
               "ToolTip": "C:\\Users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Controllers\\AdminContactController.cs",
               "RelativeToolTip": "FrontEnd\\HotelProject.WebUI\\Controllers\\AdminContactController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T10:52:52.025Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_NavbarPartial\\Default.cshtml",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\Shared\\Components\\_NavbarPartial\\Default.cshtml",
@@ -126,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\Default\\Index.cshtml",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\Default\\Index.cshtml",
@@ -143,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AdminLayoutController.cs",
               "DocumentMoniker": "C:\\Users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Controllers\\AdminLayoutController.cs",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Controllers\\AdminLayoutController.cs",
@@ -156,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AboutAdminController.cs",
               "DocumentMoniker": "C:\\Users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Controllers\\AboutAdminController.cs",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Controllers\\AboutAdminController.cs",
@@ -169,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DefaultController.cs",
               "DocumentMoniker": "C:\\Users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Controllers\\DefaultController.cs",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Controllers\\DefaultController.cs",
@@ -182,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Properties\\launchSettings.json",
@@ -195,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Views\\AboutAdmin\\Index.cshtml",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Views\\AboutAdmin\\Index.cshtml",
@@ -208,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\appsettings.json",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\appsettings.json",
@@ -221,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\FrontEnd\\HotelProject.WebUI\\Program.cs",
               "RelativeDocumentMoniker": "FrontEnd\\HotelProject.WebUI\\Program.cs",
@@ -234,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.WebApi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.WebApi\\Properties\\launchSettings.json",
@@ -247,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.WebApi\\appsettings.Development.json",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.WebApi\\appsettings.Development.json",
@@ -260,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\muhammed.basp\u0131nar\\source\\repos\\krisis-code\\Udemy-AspNetCoreApi-RapidApi-Api-Consume\\UdemyRapidApi\\ApiConsume\\HotelProject.WebApi\\Program.cs",
               "RelativeDocumentMoniker": "ApiConsume\\HotelProject.WebApi\\Program.cs",
