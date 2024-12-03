@@ -4,6 +4,7 @@ using HotelProject.DtoLayer.Dtos.BookingDto;
 using HotelProject.DtoLayer.Dtos.ContactDto;
 using HotelProject.DtoLayer.Dtos.GuestDto;
 using HotelProject.DtoLayer.Dtos.RoomDto;
+using HotelProject.DtoLayer.Dtos.SendMessageDto;
 using HotelProject.EntityLayer.Concrete;
 
 namespace HotelProject.WebApi.AutoMapper
@@ -33,6 +34,10 @@ namespace HotelProject.WebApi.AutoMapper
             CreateMap<GuestAddDto, Guest>().ReverseMap();
             CreateMap<GuestResultDto, Guest>().ReverseMap();
             CreateMap<GuestUpdateDto, Guest>().ReverseMap();
+
+            CreateMap<ResultSendMessageDto, SendMessage>().ReverseMap();
+            CreateMap<AddSendMessageDto, SendMessage>().ReverseMap();
+            CreateMap<UpdateSendMessageDto, SendMessage>().ReverseMap();
 
         }
     }

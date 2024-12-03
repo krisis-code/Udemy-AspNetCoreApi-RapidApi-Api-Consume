@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HotelProject.EntityLayer.Concrete
+namespace HotelProject.DtoLayer.Dtos.SendMessageDto
 {
-    public class SendMessage
+    public class UpdateSendMessageDto
     {
         public int SendMessageId { get; set; }
 
         public string Title { get; set; }
 
-        public string  Content { get; set; }
+        public string Content { get; set; }
 
         public string SenderName { get; set; }
 
