@@ -16,5 +16,7 @@ namespace HotelProject.BusinessLayer.Concrete
         {
             _contactDal = contactDal;
         }
+
+      
     }
 }

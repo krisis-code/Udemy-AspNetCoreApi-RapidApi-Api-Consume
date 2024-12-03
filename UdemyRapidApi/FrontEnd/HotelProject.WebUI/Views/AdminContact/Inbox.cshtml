@@ -1,4 +1,4 @@
-﻿
+﻿@model List<ContactResultDto>
 @{
     ViewData["Title"] = "Inbox";
     Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
@@ -16,19 +16,14 @@
                     </div>
                     <div class="email-right-box">
                         <div role="toolbar" class="toolbar">
-                            <div class="btn-group">
-                                <button aria-expanded="false" data-toggle="dropdown" class="btn btn-dark dropdown-toggle" type="button">
-                                    More <span class="caret m-l-5"></span>
-                                </button>
-                                <div class="dropdown-menu">
-                                    <span class="dropdown-header">More Option :</span>  <a href="javascript: void(0);" class="dropdown-item">Mark as Unread</a>  <a href="javascript: void(0);" class="dropdown-item">Add to Tasks</a>  <a href="javascript: void(0);"
-                                                                                                                                                                                                                                           class="dropdown-item">Add Star</a>  <a href="javascript: void(0);" class="dropdown-item">Mute</a>
-                                </div>
-                            </div>
+                   
                         </div>
-                        <div class="email-list m-t-15">
-                            <div class="message">
-                                <a href="email-read.html">
+                        
+                                @foreach(var item in Model)
+                        {
+                    <div class="email-list m-t-15">
+                        <div class="message">
+                        <a href="email-read.html">
                                     <div class="col-mail col-mail-1">
                                         <div class="email-checkbox">
                                             <input type="checkbox" id="chk2">
@@ -36,28 +31,17 @@
                                         </div><span class="star-toggle ti-star"></span>
                                     </div>
                                     <div class="col-mail col-mail-2">
-                                        <div class="subject">Ingredia Nutrisha, A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture</div>
-                                        <div class="date">11:49 am</div>
+                                        <div class="subject">@item.Subject</div>
+                                        <div class="date">@item.Date.ToShortDateString()</div>
                                     </div>
                                 </a>
-                            </div>
-                           
-                            <div class="message unread">
-                                <a href="email-read.html">
-                                    <div class="col-mail col-mail-1">
-                                        <div class="email-checkbox">
-                                            <input type="checkbox" id="chk9">
-                                            <label class="toggle" for="chk9"></label>
-                                        </div><span class="star-toggle ti-star"></span>
-                                    </div>
-                                    <div class="col-mail col-mail-2">
-                                        <div class="subject">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of</div>
-                                        <div class="date">11:49 am</div>
-                                    </div>
-                                </a>
-                            </div>
-                     
                         </div>
+
+
+
+                    </div>
+                        }
+                            
 
                     </div>
                 </div>
